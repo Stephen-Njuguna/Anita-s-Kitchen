@@ -1,0 +1,306 @@
+body{
+  margin: 1%;
+  font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('assets/backgrounds/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+header > img {
+    height: 500px;
+    width: auto;
+}
+
+header > p{
+    font-family:sans-serif ;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.summary {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.summary figure{
+  position: relative;
+  margin: 0;
+}
+
+.summary > *{
+flex: 1;
+}
+
+
+.summary figcaption{
+  position: absolute;
+  color: #ddd;
+  /* width: 50%;
+  bottom: 4px;
+  left: 40%;
+  top: 40%; */
+  font-size: x-large;
+  font-weight: bold;
+  font-style: italic;
+  
+}
+
+.summary figure img{
+ position: absolute;
+ inset: 0;
+}
+
+.summary > .sum{
+  /* display: block; */
+  /* width: 10%; */
+  /* bottom: 4px;
+  left: 40%;
+  top: 40%; */
+}
+
+.sum > .happy{
+  position: relative;
+  font-size: x-large;
+  font-weight: bold;
+  font-style: italic;
+  background: lightgray;
+  padding: 30% 10% 30% 10%;
+  text-align: center;
+}
+
+.sum > .party{
+  position: relative;
+  font-size: x-large;
+  font-weight: bold;
+  font-style: italic;
+  background: #F15A29;
+  top: -20%;
+  padding: 45px 10px 30px 10px;
+  text-align: center;
+}
+
+
+.middle{
+  display: inline-block;
+  align-items: center;
+  padding: 10%;
+  margin-top: -10%;
+}
+
+#fastfood{
+  float: right;
+  clear: right;
+}
+
+#fastfood > img{
+  float: left;
+  clear: left;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#fastfood > strong{
+  display: flex;
+  color: #F15A29;
+  border: 1px solid #F15A29;
+  padding: 20px;
+  border-radius: 5px;
+  width: 200px;
+  height: 20px;
+  justify-content: center;
+}
+
+#drinks{
+  float: right;
+  clear: right;
+}
+
+#drinks > img{
+  display:block;
+  float: right;
+  width:20%;
+  height:20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#drinks > strong{
+  display: flex;
+  color: #F15A29;
+  border: 1px solid #F15A29;
+  padding: 20px;
+  border-radius: 5px;
+  width: 200px;
+  height: 20px;
+  justify-content: center;
+}
+
+/* Style the table */
+.table{
+  margin-top: -10%;
+  background-image: url("assets/backgrounds/foodsBg.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 10;
+  height: 17cm;
+}
+
+table{
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 8%;
+  background-color: #ddd;
+  background-size: cover;
+  margin-left: 8.5%;
+  border: 1px solid #ddd;
+}
+
+th {
+  font-size: larger;
+  background-color:#333;
+  padding: 0.5rem;
+  text-align: center;
+  border: 0.1% solid #ddd;
+  width: 200px;
+  color: #ddd;
+}
+
+td {
+  position: relative;
+  left: 15%;
+  padding: 10px;
+  text-align: center;
+  border: 10px solid #ddd;
+  color: #F15A29;
+  width: 300px;
+}
+
+#food{
+  color: #F15A29;
+  background-color: #ddd;
+}
+
+.review {
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-shadow: #ddd 3px 5px 5px 10px;
+}
+
+.left .customer{
+  display: flex;
+  align-items: center;
+}
+
+
+.left .customer img {
+  margin: 0 10px;
+
+}
+
+.left {
+  flex-direction: row;
+  display: flex;;
+  align-items: center;
+  justify-content: center;
+  flex: 2;
+  margin-right: 20px;
+}
+
+.left .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: 5px solid #ddd;
+  padding-left: 20px;
+}
+.review h3{
+  padding: 10px;
+  color: #F15A29;
+}
+
+.left h4{
+  padding: 10px;
+  font-style: italic;
+}
+
+footer{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;;
+  flex-wrap: wrap;
+}
+
+.site-footer{
+  background-image: url(assets/backgrounds/subscribe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+
+}
+
+.site-footer h2{
+  color: #ddd;
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 8%;
+}
+
+#sub{
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;;
+  justify-content: space-between;
+
+}
+.email{
+  padding: 20px;
+  margin-left: 30%;
+  text-align: start;
+  color: #ddd;
+  border: 10px solid #ddd;
+  width: 300px;
+  height: 20px;
+}
+.subscribe {
+  padding: 30px;
+  text-align: center;
+  background-color: #F15A29;
+  margin-right: 30%;
+  width: 200px;
+  color: #ddd;
+}
+
+
+#social {
+  margin-top: -1%;
+  background-color: #F15A29;
+  display: flex;
+  flex-direction: column;
+  align-items: center;;
+}
+
+.image img {
+  margin: 0 10px;
+  background-color: black;
+}
